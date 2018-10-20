@@ -16,7 +16,7 @@ class TopNav extends Component {
         return (
             <div className="TopNav-Container">
                 <ul className="TopNav-List">
-                    <li><Link className={ aboutPage ? "TopNav-Active TopNav-ListItem" : "TopNav-ListItem" } to='/about'>About</Link></li>
+                    <li><Link className={ aboutPage ? "TopNav-Active TopNav-ListItem" : "TopNav-ListItem" } to='/'>About</Link></li>
                     <li><Link className={ skillsPage ? "TopNav-Active TopNav-ListItem" : "TopNav-ListItem" } to='/skills'>Skills</Link></li>
                     <li><Link className={ projectsPage ? "TopNav-Active TopNav-ListItem" : "TopNav-ListItem" } to='/projects'>Projects</Link></li>
                     <li><Link className={ contactPage ? "TopNav-Active TopNav-ListItem" : "TopNav-ListItem" } to='/contact'>Contact</Link></li>
